@@ -85,10 +85,12 @@ module.exports = {
     var scssFiles = [
       //core styles
       'core/style/typography.scss',
-      'core/style/themes.scss',
+      'core/style/core-theme.scss',
       'core/style/mixins.scss',
       'core/style/variables.scss',
       'core/style/structure.scss',
+      'core/style/layout.scss',
+      'core/services/layout/layout-attributes.scss',
       'core/services/layout/layout.scss',
       //component styles
       'components/content/content.scss',
